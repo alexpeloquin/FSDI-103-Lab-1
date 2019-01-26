@@ -1,0 +1,63 @@
+body{
+    background: #002868;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #BF0A30;
+}
+
+h3 {
+    font-size:  14px;
+    border: 1px solid #BF0a30;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+
+}
+
+table{
+    background: #BF0A30;
+    column-span: 40px;
+
+
+}
+
+table thead{
+    border: 1px solid white;
+    color: white; 
+    
+
+}
+
+
+table tbody tr td:nth-child(2){
+    text-align: center;
+}
+
+table button{
+    margin: 5px 5px;
+    color: green;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+table td{
+    border: 1px solid #FFD700;
+}
+
+.img:hover{
+    transition: transform .2s;
+    border: 1px solid blue;
+    transform: scale(3.0);
+}
